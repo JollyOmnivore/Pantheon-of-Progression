@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "37EB19C83D01D4D3"
+	id: "2A4C77F87F8D5E22"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["\"God of Versatility\""]
+	title: "Mekanism"
+}

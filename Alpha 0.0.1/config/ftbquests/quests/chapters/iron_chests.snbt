@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_chests"
+	group: "5020BCF5116E9237"
+	id: "6167ED82091D3050"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["\"God of Hoarding\""]
+	title: "Iron Chests (and etc.)"
+}

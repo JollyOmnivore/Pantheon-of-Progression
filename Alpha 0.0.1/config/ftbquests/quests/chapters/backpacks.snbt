@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "backpacks"
+	group: "5020BCF5116E9237"
+	id: "4E9196D12C56FF4E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["\"God of Looting\""]
+	title: "Traveler/Sophisticated Backpacks"
+}

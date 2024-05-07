@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "0488AE8BA87ABCEA"
+	id: "57252291890BBF95"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["\"God of Nature and Balance\""]
+	title: "Botania"
+}

@@ -1,0 +1,302 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "interdimesional_travel"
+	group: "613FE30DB8E854D5"
+	id: "25F01402585B3ED9"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "#FFFFFF"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "08A8B6E73B639B1F"
+			rewards: [{
+				id: "6B167A7ECD527E16"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "\"Doin' a lil' chemistry homework with Grandpa?\""
+			tasks: [{
+				id: "002A4E274D749362"
+				item: "portalgun:bootleg_portal_fluid_bottle"
+				type: "item"
+			}]
+			title: "Brew some bootleg portal fluid."
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "1D089527C5C14390"
+			rewards: [{
+				id: "46CE8A77C4A9C859"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "\"Carry the 3, add a 2...\""
+			tasks: [{
+				id: "061F3C018386F58C"
+				item: "portalgun:quantum_leap_elixir"
+				type: "item"
+			}]
+			title: "Brew a quantum leap elixir."
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"08A8B6E73B639B1F"
+				"1D089527C5C14390"
+			]
+			id: "439EDF07ACDB2C38"
+			rewards: [
+				{
+					count: 6
+					id: "31B43666982701C2"
+					item: "the_multiverse_of_freddys:exotic_beverage"
+					type: "item"
+				}
+				{
+					id: "3E8CC3DE363EDDF3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "\"Much less toxic than Mountain Dew.\""
+			tasks: [{
+				id: "4D89E94F42EA93DA"
+				item: "portalgun:portal_fluid_bottle"
+				type: "item"
+			}]
+			title: "Brew portal fluid."
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["439EDF07ACDB2C38"]
+			id: "0B5090F1E81E684C"
+			rewards: [
+				{
+					id: "0C045865149E08F6"
+					item: "minecraft:sea_pickle"
+					type: "item"
+				}
+				{
+					id: "01C8AA26DA950F9E"
+					type: "xp_levels"
+					xp_levels: 137
+				}
+			]
+			subtitle: "\"C-137. The Rickest Rick.\""
+			tasks: [{
+				id: "2203FBE2F5A99F8D"
+				item: {
+					Count: 1b
+					id: "portalgun:portal_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft Rick's classic portal gun."
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["439EDF07ACDB2C38"]
+			id: "5F810155A0D2BFBD"
+			rewards: [
+				{
+					id: "344A9E13254624EA"
+					item: "mekanism:teleportation_core"
+					type: "item"
+				}
+				{
+					id: "051756F6E9F78BCC"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			subtitle: "\"I made you. I showed you INFINITY.\""
+			tasks: [{
+				id: "6FD165C2825AC012"
+				item: {
+					Count: 1b
+					id: "portalgun:prime_portal_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft Rick-Prime's portal gun."
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["439EDF07ACDB2C38"]
+			id: "3AAB2584B705CD21"
+			rewards: [
+				{
+					id: "46BFB0F927EF41AE"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "499873B2D8948F04"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55F9B9D3B7E73C29"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7833BDAEB40B5A55"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "\"Now you're 'Evil Morty' too ... on this side of the curve.\""
+			tasks: [{
+				id: "7C4A44B1458D46F5"
+				item: {
+					Count: 1b
+					id: "portalgun:golden_portal_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft \"Evil\" Morty's portal gun."
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "7DFA8208D89D2AC5"
+			rewards: [
+				{
+					id: "67B205DBE4784DF5"
+					item: "weeping_angels:music_disc_time_prevails"
+					type: "item"
+				}
+				{
+					id: "390D12431FA70555"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			subtitle: "\"For all time. Always.\""
+			tasks: [{
+				id: "26F4DCC4BC582C16"
+				item: "tempad:tempad"
+				type: "item"
+			}]
+			title: "Craft a Tempad"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "394E826C0BAD2797"
+			rewards: [{
+				id: "703E5A161A9B3FB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "\"It's cheaper than it looks.\""
+			tasks: [{
+				id: "58EDDEEB271B0775"
+				item: "tardim:rotor"
+				type: "item"
+			}]
+			title: "Craft a time rotor."
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "0A071ADAF39E151D"
+			rewards: [{
+				id: "6A774826A4B0E94C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "\"It opens down the middle.\""
+			tasks: [{
+				id: "450F60A8E7E51ECC"
+				item: "tardim:tardim_interior_doors"
+				type: "item"
+			}]
+			title: "Craft a TARDIM door."
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"394E826C0BAD2797"
+				"0A071ADAF39E151D"
+			]
+			id: "64D14C9A1964BCF3"
+			rewards: [
+				{
+					id: "14DFEE336E7CEA0B"
+					item: "weeping_angels:timey_wimey_detector"
+					type: "item"
+				}
+				{
+					id: "1479BC2AEB08C984"
+					type: "xp_levels"
+					xp_levels: 63
+				}
+			]
+			subtitle: "\"Time And Relative Dimension In Minecraft.\""
+			tasks: [{
+				id: "4FF053A6091BC562"
+				item: "tardim:tardim"
+				type: "item"
+			}]
+			title: "Make a TARDIM."
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["\"God of Space and Time\""]
+	title: "Interdimesional Travel"
+}

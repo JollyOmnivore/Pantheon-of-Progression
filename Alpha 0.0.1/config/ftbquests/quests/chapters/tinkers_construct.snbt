@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "37EB19C83D01D4D3"
+	id: "05BA30B70739AB2A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["\"God of Tools and Weapons\""]
+	title: "Tinkers Construct"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "5020BCF5116E9237"
+	id: "3EE93BB6E54AC75C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["\"God of Convenience\""]
+	title: "Refined Storage"
+}

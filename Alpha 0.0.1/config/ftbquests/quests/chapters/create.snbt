@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "37EB19C83D01D4D3"
+	id: "6ECC63DE4B99D91B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["\"God of Gears and Movement\""]
+	title: "Create"
+}
