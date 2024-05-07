@@ -1,0 +1,4 @@
+version:3120
+bedrockLikeUI:false
+exotelPanorama:false
+panoramaInsteadDirtBackground:false
