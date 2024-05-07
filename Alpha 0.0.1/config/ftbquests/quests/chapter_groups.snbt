@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "37EB19C83D01D4D3", title: "Mech n' Tech" }
+		{ id: "0488AE8BA87ABCEA", title: "Magical/Alchemical Expansions" }
+		{ id: "5020BCF5116E9237", title: "Upgraded Storage" }
+		{ id: "72CEB55DF890CFD2", title: "Hunter/Gatherer Activities" }
+		{ id: "16004A1527AE64BA", title: "The Dining Renaissance" }
+		{ id: "613FE30DB8E854D5", title: "Other Fun Stuff" }
+		{ id: "31AA74F9E267B60F", title: "Interdimensional Exploration" }
+	]
+}
