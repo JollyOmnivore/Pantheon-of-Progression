@@ -4,9 +4,672 @@
 	filename: "create"
 	group: "37EB19C83D01D4D3"
 	id: "6ECC63DE4B99D91B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "essential:textures/wip.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/golden_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/copper_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/iron_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/brass_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["Item Management"]
+			image: "ironchest:item/wood_iron_upgrade"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["Item Management 2"]
+			image: "ironchest:item/wood_copper_upgrade"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 17.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "75E74052356CEBF0"
+			tasks: [{
+				id: "5F28A3ED8B738291"
+				title: "Getting Started in Create"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["75E74052356CEBF0"]
+			id: "776D5C26535A06B1"
+			rewards: [{
+				id: "7094E338490BF21A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46FEC3006BE8B0FB"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "You're Gonna Need this"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["776D5C26535A06B1"]
+			id: "1E400383F12FA4DD"
+			rewards: [{
+				id: "6B19625891E8094D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2AA18FA1004B8FD5"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "They Said im Shadow Banned for What?"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75E74052356CEBF0"]
+			id: "52D5ED417DE31517"
+			subtitle: "Holding W on a create item will show you how its used "
+			tasks: [{
+				id: "27F75C788EC12F74"
+				title: "Don't Forget to Ponder"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E400383F12FA4DD"]
+			id: "0B2F87D8994D60E1"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Hold W on cog item to see effects of rotaional energy "
+			tasks: [
+				{
+					id: "35BE004B3B0CABD5"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "659E68987E94EB8F"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Getting In Gear"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E400383F12FA4DD"]
+			id: "23E55F71F172746C"
+			tasks: [{
+				id: "0E42937C73B157CA"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23E55F71F172746C"]
+			id: "273DE8F62A08BE16"
+			tasks: [{
+				id: "4C0A9EB6F2B96882"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["776D5C26535A06B1"]
+			id: "652AFB1D766FC0EF"
+			subtitle: "Right Click on a striped log holding an andesite Alloy"
+			tasks: [{
+				id: "658D0AA7FFE968EB"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["652AFB1D766FC0EF"]
+			id: "514A32C97C2D7F50"
+			tasks: [{
+				id: "5DA322AC64EA04E0"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["514A32C97C2D7F50"]
+			id: "167CFD819F9CDEEC"
+			tasks: [{
+				id: "2889EFE056D67217"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["652AFB1D766FC0EF"]
+			id: "0EE59D78D66EC8D4"
+			tasks: [{
+				id: "27EB37EA87724DD9"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EE59D78D66EC8D4"]
+			id: "0D95DB9F75B1BF25"
+			tasks: [{
+				id: "38E36A5671BDCC82"
+				item: "create:vertical_gearbox"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["652AFB1D766FC0EF"]
+			id: "431625B81C63362C"
+			tasks: [{
+				id: "4F5C504C7D4D6933"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["652AFB1D766FC0EF"]
+			id: "2643B8593FC697E9"
+			tasks: [{
+				id: "247FD60F989CCC37"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["652AFB1D766FC0EF"]
+			id: "6272111D2D1139B5"
+			tasks: [{
+				id: "256FF48AF94113C9"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B2F87D8994D60E1"]
+			id: "17C30217E0725EBB"
+			tasks: [{
+				id: "3BBA110EA1373FCB"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0080C458B947D84D"]
+			id: "4982DF4AECE7FAD1"
+			tasks: [{
+				id: "30B2AEF6785CB0D4"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			hide_dependency_lines: true
+			id: "51FF592E12FB70F9"
+			tasks: [{
+				id: "08A2D908D6932470"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			hide_dependency_lines: true
+			id: "6E5AAAE196974796"
+			tasks: [{
+				id: "00F85DF8FF697518"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["652AFB1D766FC0EF"]
+			id: "189F269A100E8B1B"
+			tasks: [{
+				id: "79A5564B820CB5E7"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17C30217E0725EBB"]
+			id: "3D4280D1A5FBE728"
+			tasks: [
+				{
+					id: "5E300ED16F17A3CE"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "6926675EBD49C436"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					id: "0F4BE8161928AB2B"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+			]
+			title: "For Sheets and Giggles"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			id: "511F256ACF7C1B26"
+			tasks: [{
+				id: "21B9255541367902"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			id: "7869ED0D71CC2437"
+			tasks: [{
+				id: "5FF521225B712E9C"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			id: "0080C458B947D84D"
+			tasks: [{
+				id: "2C58B724E31C0E7B"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			hide_dependency_lines: true
+			id: "4D879E2E42140813"
+			tasks: [{
+				id: "116D32A231476497"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			id: "5537EE099310B4EE"
+			tasks: [{
+				id: "4F58D607E14D2C7A"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			hide_dependency_lines: true
+			id: "0167655E7BFA2662"
+			tasks: [{
+				id: "2E8245A6B06FA6D9"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7869ED0D71CC2437"]
+			id: "526ECEC2C51EC278"
+			tasks: [{
+				id: "5357A7D95B5EC6BF"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7869ED0D71CC2437"]
+			id: "0CCD544C9EDA947F"
+			tasks: [{
+				id: "071D18217CBE9170"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			hide_dependency_lines: true
+			id: "0CE72A59AFF69976"
+			tasks: [{
+				id: "339FFECE676F66DF"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0CE72A59AFF69976"]
+			id: "3EE8F2FD94E51DBC"
+			tasks: [{
+				id: "4279C074020AFDDF"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			hide_dependency_lines: true
+			id: "25F756A1C9FCB744"
+			tasks: [{
+				id: "6CAC35C680059494"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "Its Blaze Hunting Seaon"
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["25F756A1C9FCB744"]
+			id: "7DD5CECC96C75F86"
+			subtitle: "While holding an empty Blaze Burner Right Click on either a Blaze or Blaze Spawner"
+			tasks: [{
+				id: "5ED89AC36BAFE7CC"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Captured!"
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["776D5C26535A06B1"]
+			hide_dependency_lines: true
+			id: "21254CDF77AE2756"
+			tasks: [{
+				id: "071CCE83DFF5CDC0"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["75E74052356CEBF0"]
+			hide_dependency_lines: true
+			id: "06E821E91755E3A2"
+			tasks: [{
+				id: "11DCD43E0D4A0AB9"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["776D5C26535A06B1"]
+			hide_dependency_lines: true
+			id: "152C592808F863D2"
+			tasks: [{
+				id: "703B466E63C2B1E1"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["776D5C26535A06B1"]
+			hide_dependency_lines: true
+			id: "50C40BF60C35A29F"
+			tasks: [{
+				id: "352A02ED51DAA1A2"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3D4280D1A5FBE728"
+				"189F269A100E8B1B"
+			]
+			hide_dependency_lines: true
+			id: "70F0C337D077F512"
+			tasks: [{
+				id: "2442D64FE3C1F568"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E400383F12FA4DD"]
+			hide_dependency_lines: true
+			id: "7FD46D0D4526A77A"
+			subtitle: "Right Click on Two Shafts to Place"
+			tasks: [{
+				id: "39B17562AD815D32"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7869ED0D71CC2437"]
+			id: "00BE11430FF6C202"
+			tasks: [{
+				id: "235BF4880728EE9F"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D4280D1A5FBE728"]
+			hide_dependency_lines: true
+			id: "5E7B62296BCEC5EF"
+			tasks: [{
+				id: "5BC6A455ED183E12"
+				item: "create:black_toolbox"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7DD5CECC96C75F86"]
+			id: "514D5105462E48D3"
+			rewards: [{
+				id: "590DA51EAA4E5540"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Using a Basin and a Mixer place Zinc and Copper inside and Heat with a Blaze Burner"
+			tasks: [{
+				id: "3CDF3A4C12E3DD04"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Aquire Brass Ingot"
+			x: -0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["514D5105462E48D3"]
+			hide_dependency_lines: true
+			id: "1CB2FFD3BF818BB7"
+			tasks: [{
+				id: "46A2646C77AEFE37"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["514D5105462E48D3"]
+			hide_dependency_lines: true
+			id: "237714418E136FCB"
+			tasks: [{
+				id: "3FE9D801D9188822"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["514D5105462E48D3"]
+			id: "0AA8CB6F703A0FD6"
+			tasks: [{
+				id: "5188FFD914B3A571"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"514D5105462E48D3"
+				"7869ED0D71CC2437"
+			]
+			hide_dependency_lines: true
+			id: "7D74A58F6D967CA9"
+			tasks: [{
+				id: "5815E792903452CC"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+	]
 	subtitle: ["\"God of Gears and Movement\""]
 	title: "Create"
 }
