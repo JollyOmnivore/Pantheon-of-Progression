@@ -1,0 +1,390 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_new_age"
+	group: "37EB19C83D01D4D3"
+	id: "4FBE4F937CB570E9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"59F02D7F9953A662"
+				"147A73C4803B9D9E"
+			]
+			id: "21E47A229338940A"
+			tasks: [{
+				id: "67342153307EE658"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			id: "6F06B01C43B12332"
+			tasks: [{
+				id: "2D3F732A4F81B207"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6888DE235FAF4B32"]
+			id: "59F02D7F9953A662"
+			tasks: [{
+				id: "18C0754BD2BAA60B"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["59F02D7F9953A662"]
+			id: "0EA39077BF1C3526"
+			tasks: [{
+				id: "673E4CF225AC2DED"
+				item: "create_new_age:energiser_t2"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0EA39077BF1C3526"]
+			id: "463C9B11782ADCA4"
+			tasks: [{
+				id: "14F9E47E118F308A"
+				item: "create_new_age:energiser_t3"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6F06B01C43B12332"]
+			id: "0B8B8134B6D49313"
+			tasks: [{
+				id: "147BF09C5DC85F47"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B8B8134B6D49313"]
+			id: "3B5E6D5CB56FFFFA"
+			tasks: [{
+				id: "3B0D976961E25AAE"
+				item: "create_new_age:layered_magnet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "638D08B20C12FD7A"
+			tasks: [{
+				id: "0D47D4046E141C6A"
+				item: "create_new_age:thorium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["638D08B20C12FD7A"]
+			id: "147A73C4803B9D9E"
+			subtitle: "Created from milling or crushing thorium"
+			tasks: [{
+				id: "64455464BB6CD7FB"
+				item: "create_new_age:radioactive_thorium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["59F02D7F9953A662"]
+			id: "5521FB730A3FBE9C"
+			tasks: [{
+				id: "7F7594BB07FF1598"
+				item: "create_new_age:overcharged_iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["59F02D7F9953A662"]
+			id: "525152FF35B0F435"
+			tasks: [{
+				id: "1D8D20D711C11BDE"
+				item: "create_new_age:overcharged_gold"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "181F2AE22D824215"
+			tasks: [{
+				id: "2D1C545639CDA1EB"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5521FB730A3FBE9C"
+				"181F2AE22D824215"
+			]
+			hide_dependency_lines: true
+			id: "0211E0A156903843"
+			tasks: [{
+				id: "366837B8F25F6380"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39631F453B9DDFDE"]
+			id: "30C671E1C1E102EC"
+			size: 1.5d
+			tasks: [{
+				id: "25E7ACABFE14099B"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["181F2AE22D824215"]
+			id: "7789678AA6EED79C"
+			tasks: [{
+				id: "7AB1152A7A5768F4"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59F02D7F9953A662"]
+			id: "3540AAF97ACE9F62"
+			tasks: [{
+				id: "0502E522E6FED8AA"
+				item: "create_new_age:overcharged_diamond"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["59F02D7F9953A662"]
+			hide_dependency_lines: true
+			id: "237A8116CFD20042"
+			tasks: [{
+				count: 2L
+				id: "153CBFB660D01CEE"
+				item: "create_new_age:reactor_glass"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["59F02D7F9953A662"]
+			hide_dependency_lines: true
+			id: "776BB64ADDD2E363"
+			tasks: [{
+				count: 2L
+				id: "08F85A2F6CBE3AF4"
+				item: "create_new_age:reactor_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"59F02D7F9953A662"
+				"21E47A229338940A"
+			]
+			hide_dependency_lines: true
+			id: "7240112BBB8E3F90"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1CA7D2B8294035AB"
+				item: "create_new_age:reactor_rod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["59F02D7F9953A662"]
+			hide_dependency_lines: true
+			id: "3A1DE3A47DB30A9A"
+			tasks: [{
+				id: "61D78DB7AEC3B1CD"
+				item: "create_new_age:reactor_fuel_acceptor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["59F02D7F9953A662"]
+			hide_dependency_lines: true
+			id: "00BB93387AFB8224"
+			tasks: [{
+				id: "36731F1DDB7D9C99"
+				item: "create_new_age:reactor_heat_vent"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3B5E6D5CB56FFFFA"]
+			id: "38AC9F053DA91FEC"
+			tasks: [{
+				id: "515059C9B6498CD9"
+				item: "create_new_age:fluxuated_magnetite"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["38AC9F053DA91FEC"]
+			id: "1FF876842287F925"
+			tasks: [{
+				id: "6EA8756B3195E8E6"
+				item: "create_new_age:netherite_magnet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["30C671E1C1E102EC"]
+			id: "6888DE235FAF4B32"
+			tasks: [{
+				id: "000F2D7AE2E4B804"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B55B8A5CA6ACD90"]
+			id: "260A968C05E07ADE"
+			tasks: [{
+				id: "3A267F5C792E595D"
+				item: "create_new_age:overcharged_golden_wire"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["260A968C05E07ADE"]
+			id: "5596109607A65002"
+			tasks: [{
+				id: "454950C54932FCA1"
+				item: "create_new_age:overcharged_diamond_wire"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3818A1E87E83B4EC"]
+			id: "6B55B8A5CA6ACD90"
+			tasks: [{
+				id: "01337AA158001D18"
+				item: "create_new_age:overcharged_iron_wire"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6888DE235FAF4B32"]
+			id: "3818A1E87E83B4EC"
+			tasks: [{
+				id: "3A651E3709EA19F6"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["30C671E1C1E102EC"]
+			id: "3E2A8E5D3A070839"
+			tasks: [{
+				id: "7083A8899B167FF2"
+				item: "create_new_age:carbon_brushes"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7789678AA6EED79C"]
+			id: "39631F453B9DDFDE"
+			tasks: [{
+				id: "143D2801E368D818"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "18CEFC7F3D3DD738"
+			tasks: [{
+				id: "0BA727B4AD92F022"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			id: "56E74E7CB5366607"
+			tasks: [{
+				id: "5915F7842A08318A"
+				item: "create_new_age:advanced_motor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			id: "36AC3D5B32D7815E"
+			tasks: [{
+				id: "4CB740839F19B49E"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+	]
+	title: "Create: New Age"
+}

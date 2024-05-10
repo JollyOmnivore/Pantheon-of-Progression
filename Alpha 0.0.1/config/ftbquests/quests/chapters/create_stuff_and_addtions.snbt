@@ -1,0 +1,385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_stuff_and_addtions"
+	group: "37EB19C83D01D4D3"
+	id: "7D7774BAEA427AE0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40B54D728E575ACF"
+			tasks: [{
+				id: "7B820E0CC9C0CE0F"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "7EAD0D822EB2B92A"
+			tasks: [{
+				id: "48BBF3DB62E2179B"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "26B00E02EEB01B8A"
+			tasks: [{
+				id: "2E2D31CA84311C2E"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "7D595BFC84DC1DDE"
+			tasks: [{
+				id: "3CFBCB1FDCCA0C1F"
+				item: "create_sa:brass_drone_item"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D595BFC84DC1DDE"]
+			id: "089A0B1721B14CEC"
+			tasks: [{
+				id: "73F1477D6C2BCDB3"
+				item: "create_sa:drone_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D595BFC84DC1DDE"]
+			id: "6400D22F546F2008"
+			tasks: [{
+				id: "5F97C10ECDB9EFB0"
+				item: "create_sa:copper_magnet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D595BFC84DC1DDE"]
+			id: "30D311C8DB88A15E"
+			tasks: [{
+				id: "22DFA70A52DE76C7"
+				item: "create_sa:brass_drill_head"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D595BFC84DC1DDE"]
+			id: "265B852750A31A91"
+			tasks: [{
+				id: "1E30BA6D2E54583B"
+				item: "create_sa:fan_component"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D595BFC84DC1DDE"]
+			id: "0D0A35AD8EB0DDB4"
+			tasks: [{
+				id: "25EB2DE1DC9273FB"
+				item: "create_sa:vault_component"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C7CA9751446F0D8"]
+			id: "16D753543335FFF8"
+			tasks: [{
+				id: "1E7A19FD209BE7FA"
+				item: {
+					Count: 1b
+					id: "create_sa:slime_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C7CA9751446F0D8"]
+			id: "36CAFFD665336E96"
+			tasks: [{
+				id: "289D97580C038301"
+				item: {
+					Count: 1b
+					id: "create_sa:slime_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7EAD0D822EB2B92A"]
+			id: "2325D2F70637C732"
+			tasks: [{
+				id: "763503FDBE940AF0"
+				item: {
+					Count: 1b
+					id: "create_sa:flamethrower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26B00E02EEB01B8A"]
+			id: "4863A0375FEDFDBA"
+			tasks: [{
+				id: "186CD2A66B516147"
+				item: {
+					Count: 1b
+					id: "create_sa:block_picker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7EAD0D822EB2B92A"]
+			id: "58D4ECFF8665D237"
+			tasks: [{
+				id: "330091AC762BE471"
+				item: {
+					Count: 1b
+					id: "create_sa:grapplin_whisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40B54D728E575ACF"]
+			id: "3367BBB7C28FCCC2"
+			tasks: [{
+				id: "3B84E5D40B1519D4"
+				item: {
+					Count: 1b
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "76573F2C42690391"
+			tasks: [{
+				id: "1DACF4BC9F896C99"
+				item: {
+					Count: 1b
+					id: "create_sa:small_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "43AADB711879E850"
+			tasks: [{
+				id: "57BA7B2649938D3C"
+				item: {
+					Count: 1b
+					id: "create_sa:small_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76573F2C42690391"]
+			id: "4ADEDE7A926E26BD"
+			tasks: [{
+				id: "2C7F8AE4478ABDD2"
+				item: {
+					Count: 1b
+					id: "create_sa:medium_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4ADEDE7A926E26BD"]
+			id: "19DD6A7E54D1435C"
+			tasks: [{
+				id: "664CAC9F1316171D"
+				item: {
+					Count: 1b
+					id: "create_sa:large_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["43AADB711879E850"]
+			id: "347BA4079C98656C"
+			tasks: [{
+				id: "286A1EAFB2EC6DAF"
+				item: {
+					Count: 1b
+					id: "create_sa:medium_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["347BA4079C98656C"]
+			id: "08B625DB23C7538B"
+			tasks: [{
+				id: "06C4BF79A7A263A4"
+				item: {
+					Count: 1b
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			id: "3C7CA9751446F0D8"
+			tasks: [{
+				count: 2L
+				id: "7A55A82AEC7CF198"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26B00E02EEB01B8A"]
+			id: "44A0042477D0C554"
+			tasks: [{
+				id: "233E304F5F388AF8"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["40B54D728E575ACF"]
+			id: "39DBD8272A2DC999"
+			tasks: [{
+				id: "1C97961CA93D0DF4"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40B54D728E575ACF"]
+			id: "4B0BA44BB0015FC4"
+			tasks: [{
+				id: "703E6B7952F5D90C"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EAD0D822EB2B92A"]
+			id: "4D047C60EB5BA20D"
+			tasks: [{
+				id: "65FB3BC8329D51FD"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7EAD0D822EB2B92A"]
+			id: "4BE00B0FF07FC51C"
+			tasks: [{
+				id: "4B9E1EC25E990E7F"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+	]
+	title: "Create Stuff and Addtions"
+}
