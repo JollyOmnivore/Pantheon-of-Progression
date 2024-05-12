@@ -1,0 +1,303 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_sabers"
+	group: "37EB19C83D01D4D3"
+	id: "47E9FE5B62FB4E6A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0CAC5D54454F8545"
+			tasks: [{
+				id: "0219259FB88695C3"
+				item: {
+					Count: 1b
+					id: "create_sabers:brass_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "7FEFB5610818C30F"
+			tasks: [{
+				id: "2E8606B9023F5427"
+				item: {
+					Count: 1b
+					id: "create_sabers:zinc_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "71EAD7DC4967F54B"
+			tasks: [{
+				id: "56A82EF8620D642D"
+				item: {
+					Count: 1b
+					id: "create_sabers:copper_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0CAC5D54454F8545"]
+			id: "64C3A78F01D867C9"
+			tasks: [{
+				id: "4E3BDBAB42F66511"
+				item: {
+					Count: 1b
+					id: "create_sabers:brass_saber_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FEFB5610818C30F"]
+			id: "030FE9811D1D78BB"
+			tasks: [{
+				id: "013B8D236B01953B"
+				item: {
+					Count: 1b
+					id: "create_sabers:zinc_saber_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71EAD7DC4967F54B"]
+			id: "37F8EC05DE37410C"
+			tasks: [{
+				id: "4EBAD3694F984C22"
+				item: {
+					Count: 1b
+					id: "create_sabers:copper_saber_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0CAC5D54454F8545"]
+			id: "240FABD73D10226C"
+			tasks: [{
+				id: "7C90F75F317552EB"
+				item: {
+					Count: 1b
+					id: "create_sabers:brass_saber_lime"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CAC5D54454F8545"]
+			id: "5A717712A4DD5274"
+			tasks: [{
+				id: "1C639C8489B86E8E"
+				item: {
+					Count: 1b
+					id: "create_sabers:brass_saber_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7FEFB5610818C30F"]
+			id: "4C89781C8C233BB2"
+			tasks: [{
+				id: "0FF076247AF0AF81"
+				item: {
+					Count: 1b
+					id: "create_sabers:zinc_saber_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FEFB5610818C30F"]
+			id: "1B1FE87ECE159DCA"
+			tasks: [{
+				id: "084B29BB97EAB07A"
+				item: {
+					Count: 1b
+					id: "create_sabers:zinc_saber_lime"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71EAD7DC4967F54B"]
+			id: "0CCA29D22D053C7E"
+			tasks: [{
+				id: "5E7BBC50A7F754EE"
+				item: {
+					Count: 1b
+					id: "create_sabers:copper_saber_lime"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["71EAD7DC4967F54B"]
+			id: "33B0FC4C88171260"
+			tasks: [{
+				id: "19BE2892C423C1B9"
+				item: {
+					Count: 1b
+					id: "create_sabers:copper_saber_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "4018CB44E1FFCADF"
+			invisible: true
+			min_required_tasks: 1
+			shape: "hexagon"
+			size: 1.8d
+			subtitle: "You had to ask for this one"
+			tasks: [
+				{
+					id: "427A4EDC5AB1D158"
+					item: {
+						Count: 1b
+						id: "create_sabers:copper_saber_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B1045BCCE74862C"
+					item: {
+						Count: 1b
+						id: "create_sabers:zinc_saber_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "124AC44D1FC3D736"
+					item: {
+						Count: 1b
+						id: "create_sabers:brass_saber_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.3d
+			y: 0.8999999999999999d
+		}
+		{
+			id: "0B5CC2AE57BE16A8"
+			invisible: true
+			min_required_tasks: 1
+			shape: "hexagon"
+			size: 1.8d
+			subtitle: "DUDUDUDUDUDUDUUDUDUDU NAA NAAAA"
+			tasks: [
+				{
+					id: "1A3C2DEFD8347EB2"
+					item: {
+						Count: 1b
+						id: "create_sabers:double_brass_saber_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46DD0DA0D20AF3B9"
+					item: {
+						Count: 1b
+						id: "create_sabers:double_zinc_saber_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "646158BF0500C0F8"
+					item: {
+						Count: 1b
+						id: "create_sabers:double_copper_saber_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.8d
+			y: 0.85d
+		}
+	]
+	title: "Create Sabers"
+}

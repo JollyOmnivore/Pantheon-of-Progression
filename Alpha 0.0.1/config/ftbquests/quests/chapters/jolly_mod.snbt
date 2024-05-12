@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jolly_mod"
+	group: "613FE30DB8E854D5"
+	id: "22BC72B38D129686"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "490F7A48ADB6A519"
+			tasks: [{
+				id: "62F0D2DA11032AF8"
+				item: "jolly_mod:raw_jollyinium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["490F7A48ADB6A519"]
+			id: "40EACDA4E2B5DDBD"
+			tasks: [{
+				id: "2039E20974B14BE7"
+				item: "jolly_mod:jollynium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40EACDA4E2B5DDBD"]
+			id: "42DF3F0F3407890B"
+			tasks: [{
+				id: "3324D0A84DC4AB46"
+				item: {
+					Count: 1b
+					id: "jolly_mod:jollynium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40EACDA4E2B5DDBD"]
+			id: "0578AA66985AC57A"
+			tasks: [{
+				id: "50E596027300CD39"
+				item: {
+					Count: 1b
+					id: "jolly_mod:jollynium_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "68D7EA5A9A6EF8F5"
+			invisible: true
+			tasks: [{
+				entity: "jolly_mod:fennec_fox"
+				icon: "jolly_mod:fennec_fox_spawn_egg"
+				id: "10FFFF98EF9934C5"
+				secret: true
+				title: "HOW DARE YOU"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "31B901FD2D04EE8E"
+			invisible: true
+			tasks: [{
+				checkItem: false
+				entity: "jolly_mod:fennec_fox"
+				icon: "jolly_mod:fennec_fox_spawn_egg"
+				id: "1B327ABA4DE0A6B2"
+				nbt: { }
+				title: "AWWWWWW"
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "728EF4AFFAEB4378"
+			invisible: true
+			tasks: [{
+				checkItem: true
+				entity: "jolly_mod:fennec_fox"
+				icon: "jolly_mod:fennec_fox_spawn_egg"
+				id: "11E28FF1F6381729"
+				item: "minecraft:glow_berries"
+				nbt: { }
+				secret: true
+				title: "BESTEST FRIEND EVER"
+				type: "questsadditions:interaction"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+	]
+	title: "Jolly Mod"
+}
