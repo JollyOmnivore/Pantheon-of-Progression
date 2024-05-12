@@ -9,18 +9,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "essential:textures/wip.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: -6.0d
-			y: -2.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "create:item/golden_sheet"
@@ -58,7 +46,7 @@
 			corner: false
 			dev: false
 			height: 1.0d
-			hover: [ ]
+			hover: ["PUT ZINC AND COPPER IN A HEATED BASIN AND MIX"]
 			image: "create:item/brass_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -342,6 +330,7 @@
 		{
 			dependencies: ["17C30217E0725EBB"]
 			id: "3D4280D1A5FBE728"
+			subtitle: "Place Ingots Under a Powered Press"
 			tasks: [
 				{
 					id: "5E300ED16F17A3CE"
@@ -361,7 +350,7 @@
 			]
 			title: "For Sheets and Giggles"
 			x: -0.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3D4280D1A5FBE728"]
@@ -668,6 +657,18 @@
 			}]
 			x: -3.5d
 			y: 12.0d
+		}
+		{
+			dependencies: ["0AA8CB6F703A0FD6"]
+			id: "64687F199FD2C07E"
+			tasks: [{
+				id: "5DC5C2A0BBEC7A4C"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Beyond The Crafting Grid"
+			x: -0.5d
+			y: 22.0d
 		}
 	]
 	subtitle: ["\"God of Gears and Movement\""]
